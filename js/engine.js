@@ -93,7 +93,7 @@ var Engine = (function(global) {
         allEnemies.forEach(function(enemy) {
             enemy.update(dt);
         });
-        player.update();
+       // player.update(); - to usunęła PAULA
     }
 
     /* This function initially draws the "game level", it will then call
@@ -162,7 +162,7 @@ var Engine = (function(global) {
      */
     function reset() {
         // noop
-    }
+        }
 
     /* Go ahead and load all of the images we know we're going to need to
      * draw our game level. Then set init as the callback method, so that when
